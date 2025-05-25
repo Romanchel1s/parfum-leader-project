@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "back-bot-2-parfum"
+version = "0.1.0"
+description = ""
+authors = ["Manulik <125672053+Otocolobus-manules@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+pydantic = "^2.10.5"
+pydantic-settings = "^2.7.1"
+uvicorn = "^0.34.0"
+supabase = "^2.11.0"
+dependency-injector = "^4.45.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
